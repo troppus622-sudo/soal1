@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Latihan Soal Pancasila</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ff0000, #ffffff);
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #d00000;
+      color: white;
+      position: relative;
+    }
+    header img {
+      width: 80px;
+      position: absolute;
+      top: 15px;
+      left: 20px;
+    }
+    .quiz-box {
+      background: #fff;
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 25px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    h2 {
+      text-align: center;
+      color: #d00000;
+      margin-bottom: 15px;
+    }
+    .question {
+      margin: 20px 0;
+      padding: 15px;
+      border-left: 6px solid #d00000;
+      background: #f9f9f9;
+      border-radius: 6px;
+    }
+    .question p {
+      font-weight: bold;
+    }
+    label {
+      display: block;
+      margin: 6px 0;
+    }
+    input[type="text"] {
+      padding: 8px;
+      width: 98%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      background: #d00000;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      display: block;
+      margin: 20px auto 0;
+    }
+    button:hover {
+      background: #900000;
+    }
+    .result {
+      margin-top: 25px;
+      padding: 20px;
+      border-radius: 8px;
+      background: #eafbea;
+      border-left: 6px solid #28a745;
+      display: none;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      margin: 30px 0 15px;
+      font-weight: bold;
+      color: #d00000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="R.jfif" alt="Garuda Pancasila">
+  <h1>Latihan Soal Pancasila</h1>
+</header>
+
+<div class="quiz-box">
+  <h2>Latihan Soal Pilihan Ganda</h2>
+  <label>Nama: <input type="text" id="nama" required></label>
+
+  <form id="quizForm">
+    <!-- Soal 1 -->
+    <div class="question">
+      <p>1. Berikut ini yang merupakan contoh kemajuan IPTEK di bidang pertahanan dan keamanan adalah …</p>
+      <label><input type="radio" name="q1" value="a"> a. Layanan e-commerce</label>
+      <label><input type="radio" name="q1" value="b"> b. Penggunaan satelit pengintai</label>
+      <label><input type="radio" name="q1" value="c"> c. Media sosial untuk kampanye politik</label>
+      <label><input type="radio" name="q1" value="d"> d. Program beapeserta didik digital</label>
+      <label><input type="radio" name="q1" value="e"> e. Membiarkan perkembangan IPTEK tanpa pengawasan</label>
+    </div>
+
+    <!-- Soal 2 -->
+    <div class="question">
+      <p>2. Dampak	positif kemajuan IPTEK terhadap	pemerintahan di Indonesia adalah……</p>
+      <label><input type="radio" name="q2" value="a"> a. Meningkatkan praktik	korupsi digital</label>
+      <label><input type="radio" name="q2" value="b"> b. Mempermudah transparansi	dan pelayanan public</label>
+      <label><input type="radio" name="q2" value="c"> c. Membatasi	akses informasi masyarakat </label>
+      <label><input type="radio" name="q2" value="d"> d. Menghilangkan nilai-nilai	budaya lokal</label>
+      <label><input type="radio" name="q2" value="e"> e. Mengabaikan etika komunikasi dalam dunia maya</label>
+    </div>
+
+    <!-- Soal 3 -->
+    <div class="question">
+      <p>3. Kemajuan   teknologi komunikasi	dapat memperkuat persatuan bangsa jika.…</p>
+      <label><input type="radio" name="q3" value="a"> a. Dimanfaatkan untuk memperkuat komunikasi	antar daerah</label>
+      <label><input type="radio" name="q3" value="b"> b. Digunakan untuk menyebarkan berita sensasional</label>
+      <label><input type="radio" name="q3" value="c"> c. Dipakai hanya oleh kalangan elite</label>
+      <label><input type="radio" name="q3" value="d"> d. Mengabaikan kearifan lokal</label>
+      <label><input type="radio" name="q3" value="e"> e. Mengutamakan politik identitas dalam kehidupan bermasyarakat</label>
+    </div>
+
+    <!-- Soal 4 -->
+    <div class="question">
+      <p>4. Salah	satu	ancaman terhadap ideologi Pancasila	akibat kemajuan	IPTEK adalah……</p>
+      <label><input type="radio" name="q4" value="a"> a. Meningkatnya semangat	gotong royong</label>
+      <label><input type="radio" name="q4" value="b"> b. Berkembangnya ekonomi	kreatif berbasis digital</label>
+      <label><input type="radio" name="q4" value="c"> c. Adanya pendidikan daring</label>
+      <label><input type="radio" name="q4" value="d"> d. Munculnya paham radikalisme di media sosial</label>
+      <label><input type="radio" name="q4" value="e"> e. Menggunakan teknologi untuk menyebarkan ujaran kebencian</label>
+    </div>
+
+    <!-- Soal 5 -->
+    <div class="question">
+      <p>5. Upaya yang tepat untuk mempertahankan kedaulatan NKRI di era digital adalah…</p>
+      <label><input type="radio" name="q5" value="a"> a. Meningkatkan literasi digital dan nasionalisme</label>
+      <label><input type="radio" name="q5" value="b"> b. Membatasi penggunaan teknologi informasi</label>
+      <label><input type="radio" name="q5" value="c"> c. Menghapus	media sosial</label>
+      <label><input type="radio" name="q5" value="d"> d. Menolak	investasi teknologi asing</label>
+      <label><input type="radio" name="q5" value="e"> e. Menggunakan aplikasi keuangan yang tidak resmi</label>
+    </div>
+
+    <!-- Soal 6 -->
+    <div class="question">
+      <p>6. Perbedaan utama antara globalisasi	dan kemajuan	IPTEK adalah……</p>
+      <label><input type="radio" name="q6" value="a"> a. Globalisasi berfokus		pada ekonomi,	IPTEK pada politik</label>
+      <label><input type="radio" name="q6" value="b"> b. Globalisasi adalah akibat, IPTEK adalah penyebab</label>
+      <label><input type="radio" name="q6" value="c"> c. IPTEK merupakan bagian	dari globalisasi</label>
+      <label><input type="radio" name="q6" value="d"> d. Globalisasi hanya terjadi di negara maju</label>
+      <label><input type="radio" name="q6" value="e"> e. Menjadi konsumen pasif dalam ekonomi digital</label>
+    </div>
+
+    <!-- Soal 7 -->
+    <div class="question">
+      <p>7. Penggunaan teknologi yang mencerminkan sila ke-5 Pancasila adalah… …</p>
+      <label><input type="radio" name="q7" value="a"> a. Mengembangkan aplikasi	donasi online	bagi masyarakat miskin</label>
+      <label><input type="radio" name="q7" value="b"> b. Menyebarkan hoaks politik</label>
+      <label><input type="radio" name="q7" value="c"> c. Memonopoli pasar digital</label>
+      <label><input type="radio" name="q7" value="d"> d. Menghapus budaya lokal</label>
+      <label><input type="radio" name="q7" value="e"> e. Generasi muda melupakan tradisi leluhur</label>
+    </div>
+
+    <!-- Soal 8 -->
+    <div class="question">
+      <p>8. Generasi muda dapat berperan	menjaga keutuhan NKRI di era digital dengan cara …</p>
+      <label><input type="radio" name="q8" value="a"> a. Menolak semua informasi baru dari luar negeri</label>
+      <label><input type="radio" name="q8" value="b"> b. Mengkritik pemerintah	secara anonim	di	 media sosial</label>
+      <label><input type="radio" name="q8" value="c"> c. Menggunakan IPTEK	untuk menyebarkan nilai kebangsaan</label>
+      <label><input type="radio" name="q8" value="d"> d. Menyebarkan konten provokatif</label>
+      <label><input type="radio" name="q8" value="e"> e. Mengabaikan warisan budaya nasional karena dianggap kuno</label>
+    </div>
+
+    <!-- Soal 9 -->
+    <div class="question">
+      <p>9. Salah satu cara kemajuan		IPTEK memperkuat identitas nasional	Indonesia adalah…</p>
+      <label><input type="radio" name="q9" value="a"> a. Melakukan plagiarisme karena lebih praktis</label>
+      <label><input type="radio" name="q9" value="b"> b. Menggunakan teknologi hanya untuk hiburan tanpa produktivitas</label>
+      <label><input type="radio" name="q9" value="c"> c. Menggantikan bahasa daerah dengan bahasa asing</label>
+      <label><input type="radio" name="q9" value="d"> d. Mengabaikan nilai- nilai tradisional</label>
+    </div>
+
+    <!-- Soal 10 -->
+    <div class="question">
+      <p>10. Penyalahgunaan media sosial dapat mengancam keutuhan NKRI jika digunakan untuk…</p>
+      <label><input type="radio" name="q10" value="a"> a. Mempromosikan wisata	budaya Indonesia</label>
+      <label><input type="radio" name="q10" value="b"> b. Mendorong diskusi kebangsaan antar pelajar</label>
+      <label><input type="radio" name="q10" value="c"> c. Mengedukasi warga tentang etika digital</label>
+      <label><input type="radio" name="q10" value="d"> d. Menyebarkan berita  palsu	yang memecah	belah masyarakat
+</label>
+      <label><input type="radio" name="q10" value="e"> e. Menolak semua bentuk perkembangan IPTEK</label>
+    </div>
+
+    <button type="button" onclick="submitQuiz()">Kirim Jawaban</button>
+  </form>
+
+  <div class="result" id="resultBox"></div>
+</div>
+
+<footer>
+  by @ramdani2025
+</footer>
+
+<script>
+  const GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLScbAZoQvMsalh4mdX7gG82b2HnPRJYN8D6MM8F8eWvdInxDJA/formResponse";
+  const ENTRY_NAME = "entry.48507098";
+  const ENTRY_SCORE = "entry.370195014";
+  const ENTRY_STATUS = "entry.1505961881";
+
+  const correctAnswers = {
+    q1: "b",
+    q2: "b",
+    q3: "a",
+    q4: "d",
+    q5: "a",
+    q6: "c",
+    q7: "a",
+    q8: "c",
+    q9: "b",
+    q10: "d"
+  };
+
+  function submitQuiz() {
+    const nama = document.getElementById("nama").value.trim();
+    if (!nama) { alert("Isi nama dulu!"); return; }
+
+    let score = 0;
+    let total = Object.keys(correctAnswers).length;
+
+    for (let key in correctAnswers) {
+      let selected = document.querySelector(`input[name="${key}"]:checked`);
+      if (selected && selected.value === correctAnswers[key]) score++;
+    }
+
+    let status = score >= total/2 ? "Lulus" : "Remedial";
+
+    const resultBox = document.getElementById("resultBox");
+    resultBox.style.display = "block";
+    resultBox.innerHTML = `<b>${nama}</b><br>Nilai: ${score} dari ${total}<br>Status: ${status}`;
+
+    const formData = new FormData();
+    formData.append(ENTRY_NAME, nama);
+    formData.append(ENTRY_SCORE, score);
+    formData.append(ENTRY_STATUS, status);
+
+    fetch(GOOGLE_FORM_ACTION, { method: "POST", body: formData, mode: "no-cors" })
+      .then(() => console.log("Terkirim ke Google Sheets"))
+      .catch(err => console.error("Gagal kirim", err));
+  }
+</script>
+
+</body>
+</html>
